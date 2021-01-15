@@ -3,10 +3,14 @@ import './form.css';
  
 
 const Intro =()=>{
+   let name='wissem';
+       return (
 
-    return (
+        <div>
+        <p class="paragraphe-intro">Welcome to my page {name}</p>
+         
 
-        <p class="paragraphe-intro">Welcome to my page</p>
+        </div>
     )
 }
 

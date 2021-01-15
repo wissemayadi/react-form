@@ -1,17 +1,33 @@
+import { removeData } from 'jquery';
 import React from 'react'
 
 
-const FooTer=()=> {
-    return (
-    <div>
+// const FooTer=()=> {
+//     return (
+//     <div>
   
-  <p>hello</p>
+//   <p>hello</p>
 
 
 
 
-    </div>
-    )
+//     </div>
+//     )
+// }
+
+function Appi(){
+
+  function createForm() {
+   let input = <p>Copyright created by wissem</p>;
+  
+   return (
+     <form>
+       {input}
+ 
+     </form>
+   );
+ }
+ return <div style={{backgroundColor:'skyBlue'}}>{createForm()}</div>;
 }
-
-export default FooTer;
+// export default FooTer ;
+export default Appi ;
