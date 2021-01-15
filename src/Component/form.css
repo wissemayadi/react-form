@@ -6,8 +6,17 @@
     justify-content: center;
     padding: 10px 10px;
     margin: 20px;
+    background-color: gray;
 }
-nav {
-    background-color: skyblue;
+.navbar {background-color: #e3f2fd;}
 
+.App{
+
+    background-color: brown;
+}
+.paragraphe-intro{
+
+   font-size: large;
+   font-family: 'Courier New', Courier, monospace;
+    position:center;
 }
