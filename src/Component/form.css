@@ -8,11 +8,14 @@
     margin: 20px;
     background-color: gray;
 }
-.navbar {background-color: #e3f2fd;}
+.navbar {background-color: #e3f2fd;
+    position:fixed;
+}
 
 .App{
 
     background-color: brown;
+
 }
 .paragraphe-intro{
 
